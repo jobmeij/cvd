@@ -1,2 +1,18 @@
 mapping buttons:
 https://www.youtube.com/watch?v=BV_nVu8Be7M
+rond 6:50 >> instellen gpio buttons met GPIOnext
+	git clone https://github.com/mholgatem/GPIOnext
+	ls >> laat GPIOnext zien in home folder
+	bash GPIOnext/install.sh >> installeert GPIOnext
+	na installatie kan je meteen configureren. dan moeten buttons wel aangesloten zijn!
+	na configuratie >> gpionext start
+	opnieuw opstarten pi, nu zou retropi moeten detecteren dat er een controller verbonden is.
+	
+	
+TODO's:
+- start / select buttons, nog bepalen of deze nodig zijn
+- IO board 
+-- ground aansluiten van buttons
+-- doormeten
+-- 5V fan aansluiting
+-- plankje waar buttons en joystick in komen 
