@@ -8,6 +8,11 @@ rond 6:50 >> instellen gpio buttons met GPIOnext
 	na configuratie >> gpionext start
 	opnieuw opstarten pi, nu zou retropi moeten detecteren dat er een controller verbonden is.
 	
+ander filmpje: https://www.youtube.com/watch?v=R-wAcP6wVTc
+ook rond 6:50 >> instellen knoppen 
+	raspi-gpio get <pin number>		>> gets if current pin is pull up
+	raspi-gpio set 17 ip pu			>> sets pin 17 pull-up enabled
+
 	
 TODO's:
 - start / select buttons, nog bepalen of deze nodig zijn
