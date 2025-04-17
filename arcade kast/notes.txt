@@ -10,8 +10,17 @@ rond 6:50 >> instellen gpio buttons met GPIOnext
 	
 ander filmpje: https://www.youtube.com/watch?v=R-wAcP6wVTc
 ook rond 6:50 >> instellen knoppen 
+
+Instellen pull-up weerstand per pin
 	raspi-gpio get <pin number>		>> gets if current pin is pull up
 	raspi-gpio set 17 ip pu			>> sets pin 17 pull-up enabled
+Handmatig controleren pinnen:
+	gpio -g mode 17 in 				>> configureer pin 17 als input
+	gpio -g read 17					>> lees status van pin 17
+
+alternatief voor gpionext: 
+- retrogame (adafruit)
+- mk_arcade_joystick_rpi (gebruikt kernel driver, lastiger in te stellen)
 
 	
 TODO's:
