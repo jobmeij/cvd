@@ -86,7 +86,7 @@ void setup() {
 
   // DFPlayer
   dfSerial.begin(9600);
-  delay(5000);
+  delay(3000);
   while (!dfplayer.begin(dfSerial)) {
     Serial.println("DFPlayer niet gevonden!");
     display.println("DFPlayer fout!");
