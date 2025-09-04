@@ -1,0 +1,32 @@
+mapping buttons:
+https://www.youtube.com/watch?v=BV_nVu8Be7M
+rond 6:50 >> instellen gpio buttons met GPIOnext
+	git clone https://github.com/mholgatem/GPIOnext
+	ls >> laat GPIOnext zien in home folder
+	bash GPIOnext/install.sh >> installeert GPIOnext
+	na installatie kan je meteen configureren. dan moeten buttons wel aangesloten zijn!
+	na configuratie >> gpionext start
+	opnieuw opstarten pi, nu zou retropi moeten detecteren dat er een controller verbonden is.
+	
+ander filmpje: https://www.youtube.com/watch?v=R-wAcP6wVTc
+ook rond 6:50 >> instellen knoppen 
+
+Instellen pull-up weerstand per pin
+	raspi-gpio get <pin number>		>> gets if current pin is pull up
+	raspi-gpio set 17 ip pu			>> sets pin 17 pull-up enabled
+Handmatig controleren pinnen:
+	gpio -g mode 17 in 				>> configureer pin 17 als input
+	gpio -g read 17					>> lees status van pin 17
+
+alternatief voor gpionext: 
+- retrogame (adafruit)
+- mk_arcade_joystick_rpi (gebruikt kernel driver, lastiger in te stellen)
+
+	
+TODO's:
+- start / select buttons, nog bepalen of deze nodig zijn
+- IO board 
+-- ground aansluiten van buttons
+-- doormeten
+-- 5V fan aansluiting
+-- plankje waar buttons en joystick in komen 
