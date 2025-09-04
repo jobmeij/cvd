@@ -1,0 +1,18 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\jobme\Downloads\LTspice_Simulation\LTspice_Simulation\BoostConverter\BoostConverter.net
+Start Time: Thu Sep  4 15:24:03 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 6.461 seconds.
+
+Files loaded:
+C:\Users\jobme\Downloads\LTspice_Simulation\LTspice_Simulation\BoostConverter\BoostConverter.net
+C:\Users\jobme\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\jobme\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\jobme\Downloads\LTspice_Simulation\LTspice_Simulation\BoostConverter\1N5822.sub
+C:\Users\jobme\Downloads\LTspice_Simulation\LTspice_Simulation\BoostConverter\IRLZ44N.sub
+

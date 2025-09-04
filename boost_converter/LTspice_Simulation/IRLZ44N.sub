@@ -1,0 +1,4 @@
+* IRLZ44N MOSFET SPICE Model
+.model IRLZ44N VDMOS(
++ Vto=1.2 Rd=0.022 Rs=0.005 Rg=1 Kp=75 Cgdmax=1.1n Cgdmin=0.4n Cgs=2.4n Cjo=1.4n
++ Is=1e-32 N=2 Eg=1.2 Xti=3 Tt=1.5u)
